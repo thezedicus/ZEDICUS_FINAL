@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Données locales du dashboard (alertes/stratégies sauvegardées)
+core/.alerts.json
+core/.strategies.json
+.alerts.json
+.strategies.json
+
+# Streamlit
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Données sensibles
+*.env
+.env*
+firebase_credentials.json
+credentials*.json
+
+# Logs
+*.log
+/tmp/
+
+# Tunnel / binaires locaux
+ngrok
+ngrok-*
+
+
+# Tests
+.pytest_cache/
+htmlcov/
+.coverage

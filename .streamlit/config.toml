@@ -1,0 +1,28 @@
+[server]
+headless             = true
+enableCORS           = true
+enableXsrfProtection = true
+maxUploadSize        = 10
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false
+fastReruns   = true
+
+[client]
+showErrorDetails = false
+toolbarMode      = "minimal"
+
+[theme]
+base                     = "dark"
+backgroundColor          = "#030712"
+secondaryBackgroundColor = "#060f20"
+primaryColor             = "#00D4FF"
+textColor                = "#CBD5E1"
+font                     = "sans serif"
+
+[logger]
+level         = "warning"
+messageFormat = "%(asctime)s | %(levelname)-8s | %(message)s"
